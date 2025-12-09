@@ -214,3 +214,27 @@ p {
 .paddingrow {
   padding: 72px;
 }
+/* PLAYPLUS */
+.playplus {
+  background-color: rgba(190, 188, 187);
+}
+#pluslogo {
+  height: 90px;
+  margin-top: 30px;
+  margin-bottom: 35px;
+}
+.btncustom {
+  color: rgba(54, 106, 229);
+  background-color: rgba(217, 218, 220);
+  margin-bottom: 10px;
+}
+.plusimg {
+  height: 100%;
+  width: 100%;
+}
+/* Second layout SCONTI*/
+.notrounded {
+  border-radius: 0;
+}
+
+/* NOW */
