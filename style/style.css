@@ -198,3 +198,19 @@ p {
   width: 100%;
   padding-top: 40px;
 }
+
+/* Console */
+.titolo2 {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 40px;
+}
+.consolecard {
+  height: 85%;
+  border-radius: 20px;
+
+  padding-top: 40px;
+}
+.paddingrow {
+  padding: 72px;
+}
