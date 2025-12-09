@@ -8,6 +8,10 @@ img {
   display: block;
 }
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 ul {
   list-style-type: none;
 }
@@ -40,4 +44,33 @@ ul {
   position: fixed;
   top: 0;
   width: 100%;
+}
+/* Header */
+.jumbo {
+  min-height: 750px;
+  width: 100%;
+  background-image: url(../img/jumbo-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: fill;
+  background-color: black;
+  background-position-y: 100px;
+}
+#returnalogo {
+  height: 50px;
+  width: 300px;
+}
+h1 {
+  color: white;
+}
+p {
+  color: white;
+  font-size: 20px;
+}
+.insider {
+  width: 570px;
+}
+.buy {
+  background-color: orangered;
+  color: white;
 }
