@@ -29,6 +29,9 @@ ul {
   background-color: black;
   display: flex;
 }
+a {
+  gap: 7px;
+}
 #sony {
   height: 20px;
   max-width: 100%;
@@ -36,15 +39,18 @@ ul {
 #play {
   height: 60px;
 }
-#chevron {
+.chevron {
   height: 15px;
 }
+
 .realnav {
   overflow: hidden;
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 99999;
 }
+
 /* Header */
 .jumbo {
   min-height: 750px;
@@ -82,12 +88,6 @@ p {
   padding-left: 20px;
 }
 
-#imgcard {
-  width: 100%;
-  height: 100%;
-  border-radius: 20px;
-  transition: transform 0.2s;
-}
 .imgcards {
   width: 100%;
   height: 100%;
@@ -118,6 +118,9 @@ p {
     position: relative;
     max-height: 60%;
   }
+  .insider {
+    min-width: 100%;
+  }
 }
 @media only screen and (max-width: 768px) {
   .media {
@@ -136,6 +139,9 @@ p {
   }
   .desized {
     position: static;
+  }
+  .imgcontainer {
+    min-height: 230px;
   }
 }
 
@@ -162,4 +168,24 @@ p {
   border-bottom: solid blue;
   opacity: 100%;
   transition: all 0.1s ease-in-out;
+}
+/* SECOND JUMBO */
+.jumbo2 {
+  min-height: 750px;
+  width: 100%;
+  background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  background-color: black;
+}
+#takestwologo {
+  height: 280px;
+}
+.titolo {
+  font-size: 45px;
+}
+/* Nuove USCITE */
+.nuoveuscite {
+  background-color: rgba(31, 31, 31);
 }
