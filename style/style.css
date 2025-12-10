@@ -109,13 +109,9 @@ p {
   .media {
     margin-bottom: 100px;
   }
-  .imgcontainer {
-    margin: auto;
-  }
+
   .resize {
     max-width: 60%;
-    left: 27px;
-    position: relative;
     max-height: 60%;
   }
   .insider {
@@ -134,24 +130,21 @@ p {
 }
 /* MEDIA MD */
 @media only screen and (min-width: 992px) {
-  .resize {
-    max-width: 100%;
-    max-height: 100%;
-  }
   .desized {
     position: static;
   }
-  .imgcontainer {
+  .imgc {
     min-height: 230px;
   }
 }
 /* Introduction */
 .imgcontainer {
-  height: 170px;
-  width: 160px;
+  height: 200px;
+
   margin-bottom: 40px;
 }
 .imgcard {
+  margin: auto;
   border-radius: 20px;
   transition: transform 0.2s;
 }
