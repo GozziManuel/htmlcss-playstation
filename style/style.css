@@ -103,8 +103,8 @@ p {
 .separatore {
   margin-bottom: 120px;
 }
-/* Introduction */
-
+/* MEDIA */
+/* MEDIA LG */
 @media only screen and (min-width: 768px) {
   .media {
     margin-bottom: 100px;
@@ -121,6 +121,7 @@ p {
   .insider {
     min-width: 100%;
   }
+  /* MEDIA SM XS */
 }
 @media only screen and (max-width: 768px) {
   .media {
@@ -131,7 +132,7 @@ p {
     max-height: 100%;
   }
 }
-
+/* MEDIA MD */
 @media only screen and (min-width: 992px) {
   .resize {
     max-width: 100%;
@@ -144,7 +145,7 @@ p {
     min-height: 230px;
   }
 }
-
+/* Introduction */
 .imgcontainer {
   height: 170px;
   width: 160px;
@@ -242,4 +243,32 @@ p {
 
 .now {
   background-color: rgba(22, 28, 59);
+}
+
+/* SOCIAL */
+.social {
+  margin-top: 80px;
+}
+
+/* FOOTER */
+footer {
+  min-height: 500px;
+  background-color: rgba(0, 67, 156);
+}
+
+#psfooter {
+  width: 125px;
+  height: 150px;
+
+  margin-bottom: 20px;
+}
+
+div.col-md-4 > ul {
+  color: white;
+}
+
+#sie {
+  height: 70px;
+  width: 150px;
+  margin-top: 40px;
 }
